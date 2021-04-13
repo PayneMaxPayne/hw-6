@@ -18,6 +18,6 @@ class NameParserTest {
         String[] names = {"John Doe", "Bill Mask", "Nigua Joshua"};
 
         //John, Bill, Nigua
-        System.out.println(new HM6.NameParser().parse(names));
+        System.out.println(new NameParser().parse(names));
     }
 }
